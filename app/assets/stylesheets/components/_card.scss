@@ -2,7 +2,7 @@
   border: 1px solid #eeeeee;
   margin: 15px;
   background-color: #F5F8DE;
-  box-shadow: 3px 3px #2A0C4E;
+  box-shadow: 3px 3px $violet;
   padding: 5px
 }
 
@@ -11,9 +11,9 @@
   width: 60px;
   height: 60px;
   font-size: 12px;
-  color: white;
+  color: $new-white;
   border: 1px solid gray;
   margin: 10px;
   text-decoration: none;
-  background-color: #2A0C4E
+  background-color: $violet
 }

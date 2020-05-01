@@ -1,13 +1,13 @@
 // Specific CSS for your home-page
 #typed_test {
   background-color: black;
-  color: white;
+  color: $new-white;
   width: 200px
 }
 
 .header {
   text-align: center;
-  background-color: #2A0C4E;
-  color: white
+  background-color: $violet;
+  color: $new-white;
 }
 

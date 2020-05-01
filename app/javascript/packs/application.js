@@ -9,12 +9,14 @@ require("@rails/activestorage").start()
 require("channels")
 
 import { myFunction } from '../components/alert_button'
+import { loadDynamicHeaderText } from '../components/header';
 
 import 'bootstrap';
 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
+  loadDynamicHeaderText();
   myFunction();
 });
 
