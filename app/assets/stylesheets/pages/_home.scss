@@ -1,13 +1,24 @@
 // Specific CSS for your home-page
 #typed_test {
-  background-color: black;
+  background-color: $red;
   color: $new-white;
   width: 200px
 }
 
 .header {
   text-align: center;
-  background-color: $violet;
+  background-color: $red;
   color: $new-white;
+}
+
+#home-content {
+  text-align: center;
+}
+
+.image-cards {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-around;
+  flex-flow : wrap
 }
 

@@ -1,5 +1,5 @@
-<div>
-  <h3 class="header">SCSS Variable demonstration!<span class="badge badge-secondary">Bootstrap!</span></h3>
+<div id="home-content">
+  <h3 class="header">M&M collection of Strategy Games</h3>
 
   <button id="js-button">Click Me!</button>
 
@@ -9,29 +9,42 @@
     </p>
   </div>
 
-  <div class="d-flex">
+  <div class="d-flex image-cards">
     <div class="image-segment">
-      <p>This is how you use images:</p>
+      <p>Buy it now!</p>
       <div class="my-image">
-        <%= image_tag "coffee-group", width: 200 %>
+        <%= image_tag "coh2", width: 200 %>
       </div>
     </div>
 
-    <div class="card-segment">
-      <p>A crappy example of cards:</p>
-      <ul>
-        <li class="square one">Super Simple Card</li>
-        <li class="square two">Super Simple Card</li>
-        <li class="square three">Super Simple Card</li>
-        <li class="square one">Super Simple Card</li>
-        <li class="square two">Super Simple Card</li>
-        <li class="square three">Super Simple Card</li>
-      </ul>
+     <div class="image-segment">
+      <p>Buy it now!</p>
+      <div class="my-image">
+        <%= image_tag "3k", width: 250 %>
+      </div>
+    </div>
+
+     <div class="image-segment">
+      <p>Buy it now!</p>
+      <div class="my-image">
+        <%= image_tag "iron", width: 200 %>
+      </div>
+    </div>
+
+     <div class="image-segment">
+      <p>Buy it now!</p>
+      <div class="my-image">
+        <%= image_tag "sc2", width: 200 %>
+      </div>
+    </div>
+
+     <div class="image-segment">
+      <p>Buy it now!</p>
+      <div class="my-image">
+        <%= image_tag "civ6", width: 200 %>
+      </div>
     </div>
   </div>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

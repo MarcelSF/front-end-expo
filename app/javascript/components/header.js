@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 const loadDynamicHeaderText = () => {
   new Typed('#typed_test', {
-    strings: ["Look at this weird web page!", "Learn to code"],
+    strings: ["Best Strategy Games!", "Perfect for quarantine!"],
     typeSpeed: 50,
     loop: true
   });
